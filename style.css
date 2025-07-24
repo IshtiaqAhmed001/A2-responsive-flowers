@@ -22,7 +22,7 @@ body{
         cursor: pointer;
 }
 .primary-btn:hover{
-    background-color: #f02409;
+    background-color: #ff5e01;
     color: white;
         cursor: pointer;
 }
@@ -86,4 +86,10 @@ section{
      background-position: center;
      color: white;
      padding: 180px 0;
+     margin-bottom: 100px;
+}
+
+/* footer */
+footer{
+    margin-bottom: 100px;
 }
