@@ -21,3 +21,15 @@ body{
     color: white;
 
 }
+
+section{
+    margin: 200px 0;
+}
+
+
+/* plants lover section  */
+.trusted-badge{
+    top: -90px;
+    left: 400px;
+    width: 200px;
+}
