@@ -19,11 +19,17 @@ body{
 .primary-btn{
     background-color: #E95A08;
     color: white;
-
+        cursor: pointer;
+}
+.primary-btn:hover{
+    background-color: #f02409;
+    color: white;
+        cursor: pointer;
 }
 
 section{
     margin: 200px 0;
+    
 }
 
 
@@ -69,4 +75,15 @@ section{
     text-decoration: underline;
     cursor: pointer;
     text-align: center;
+}
+
+/* colorful bunch section  */
+.colorful-bunch{
+    
+     background:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('./assets/news-letter-bg.png');
+      background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     color: white;
+     padding: 180px 0;
 }
