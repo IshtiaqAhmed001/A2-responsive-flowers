@@ -33,3 +33,40 @@ section{
     left: 400px;
     width: 200px;
 }
+
+/* latest deals section  */
+.deal-1,.deal-2, .deal-3{
+
+     width: 100%;
+     padding: 70px 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 20px;
+     color: white;
+     font-weight: bold;
+}
+.deal-1{
+   background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('./assets/deal-bloom.png');
+    background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+    
+}
+.deal-2{
+     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./assets/deal-ana.png');
+      background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+}
+.deal-3{
+     background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./assets/deal-zabo.png');
+      background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+}
+.shop-now-link{
+    text-decoration: underline;
+    cursor: pointer;
+    text-align: center;
+}
