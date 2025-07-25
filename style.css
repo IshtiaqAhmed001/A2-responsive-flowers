@@ -93,3 +93,12 @@ section{
 footer{
     margin-bottom: 100px;
 }
+
+
+/* media query  */
+@media (max-width: 576px) {
+ section{
+     margin: 80px 0;
+    
+ }
+}
